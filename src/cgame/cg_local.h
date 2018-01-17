@@ -1581,7 +1581,7 @@ typedef struct
 	qhandle_t   jetpackFlashModel;
 	qhandle_t   radarModel;
 
-	sfxHandle_t repeaterUseSound;
+	sfxHandle_t itemFillSound;
 
 	sfxHandle_t buildableRepairSound;
 	sfxHandle_t buildableRepairedSound;
@@ -1681,7 +1681,6 @@ typedef struct
 
 	// TODO: Remove those two.
 	int      powerReactorRange;
-	int      powerRepeaterRange;
 
 	float    momentumHalfLife; // used for momentum bar (un)lock markers
 	float    unlockableMinTime;  // used for momentum bar (un)lock markers
